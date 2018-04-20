@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="app_login_exittext_magin">20dp</dimen>
+    <dimen name="app_main_bottom_pading">5dp</dimen>
+    <dimen name="app_main_bottom_btn_hight">30dp</dimen>
+    <dimen name="app_homepage_ques_content_image_wh">70dp</dimen>
+    <dimen name="app_homepage_ques_item_bottom_image_height">24dp</dimen>
+    <dimen name="app_my_user_part_image_wh">50dp</dimen>
+    <dimen name="app_my_user_margen_edge">30dp</dimen>
+</resources>

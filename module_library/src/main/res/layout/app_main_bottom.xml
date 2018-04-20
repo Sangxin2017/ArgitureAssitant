@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:background="#ffffffff"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:id="@+id/app_main_bottom_homepage_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:padding="@dimen/app_main_bottom_pading">
+
+
+        <ImageView
+            android:id="@+id/app_main_bottom_homepage_image"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/app_main_bottom_btn_hight"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/app_main_bottom_homepage_click_icon" />
+
+        <TextView
+            android:id="@+id/app_main_bottom_homepage_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/app_main_bottom_click"
+            android:gravity="center"
+            android:text="首页" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/app_main_bottom_plus_layout"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+
+        <ImageView
+            android:id="@+id/app_main_bottom_plus_image"
+            android:padding="1dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/app_main_bottom_question_icon" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/app_main_bottom_my_layout"
+        android:layout_weight="1"
+        android:padding="@dimen/app_main_bottom_pading"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:id="@+id/app_main_bottom_my_image"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/app_main_bottom_btn_hight"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/app_main_bottom_my_unclick_icon" />
+
+        <TextView
+            android:id="@+id/app_main_bottom_my_tv"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/app_main_bottom_unclick"
+            android:text="我的" />
+
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>
+

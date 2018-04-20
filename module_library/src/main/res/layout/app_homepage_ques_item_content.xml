@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <TextView
+        android:id="@+id/app_homepage_ques_item_content_ques_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="【茄子】 茄汁生病怎么办，要不要现在就吃掉，着急，在线等！"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxHeight="80dp"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@+id/app_homepage_ques_item_content_ques_tv">
+
+        <ImageView
+            android:id="@+id/app_homepage_ques_item_content_image1"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/app_homepage_ques_content_image_wh"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/app_login_background_image_opacity" />
+
+        <ImageView
+            android:id="@+id/app_homepage_ques_item_content_image2"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/app_homepage_ques_content_image_wh"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/app_login_background_image_opacity" />
+
+        <ImageView
+            android:id="@+id/app_homepage_ques_item_content_image3"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/app_homepage_ques_content_image_wh"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/app_login_background_image_opacity" />
+
+
+    </LinearLayout>
+
+
+
+</android.support.constraint.ConstraintLayout>

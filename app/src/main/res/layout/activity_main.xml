@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    >
+
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/app_main_viewpage"
+        android:fitsSystemWindows="true"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        />
+
+    <include
+        layout="@layout/app_main_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        />
+
+
+
+</LinearLayout>

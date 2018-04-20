@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+    <ImageView
+        android:src="@drawable/app_login_background_image_opacity"
+        android:scaleType="centerCrop"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ImageView
+            android:id="@+id/app_login_logo_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="88dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.527"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@mipmap/ic_launcher_round" />
+
+        <EditText
+            android:id="@+id/app_login_username_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/app_login_exittext_magin"
+            android:layout_marginRight="@dimen/app_login_exittext_magin"
+            android:layout_marginTop="52dp"
+            android:ems="10"
+            android:hint="@string/app_login_username_edittext_hint"
+            android:inputType="textPersonName"
+            android:textColor="#ffffff"
+            android:textColorHint="@color/app_login_et_hint_color"
+            android:textCursorDrawable="@drawable/app_login_exittext_style"
+            android:theme="@style/app_login_et_style"
+            app:layout_constraintTop_toBottomOf="@+id/app_login_logo_image"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <EditText
+            android:id="@+id/app_login_password_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/app_login_exittext_magin"
+            android:layout_marginRight="@dimen/app_login_exittext_magin"
+            android:layout_marginTop="32dp"
+            android:ems="10"
+            android:hint="@string/app_login_password_edittext_hint"
+            android:inputType="textPassword"
+            android:textColor="#ffffff"
+            android:textColorHint="@color/app_login_et_hint_color"
+            android:textCursorDrawable="@drawable/app_login_exittext_style"
+            android:theme="@style/app_login_et_style"
+            app:layout_constraintTop_toBottomOf="@+id/app_login_username_et"
+            tools:layout_editor_absoluteX="20dp" />
+
+        <Button
+            android:id="@+id/app_login_button"
+            android:layout_width="200dp"
+            android:layout_height="49dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="36dp"
+            android:background="@drawable/app_login_btn_background"
+            android:text="@string/app_login_login_button"
+            android:textSize="30dp"
+            android:textColor="#ffffffff"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/app_login_password_et" />
+
+        <TextView
+            android:id="@+id/app_login_register_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="24dp"
+            android:text="进行注册"
+            android:textColor="#ffffff"
+            android:textSize="25dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/app_login_button" />
+
+        <TextView
+            android:id="@+id/app_login_forget_password_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="忘记密码？"
+            android:textColor="#ffffff"
+            android:textSize="25dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/app_login_button" />
+
+
+    </android.support.constraint.ConstraintLayout>
+
+</FrameLayout>
